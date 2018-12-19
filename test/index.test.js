@@ -17,7 +17,6 @@ describe('index', () => {
     expect(execSyncCalls[1]).toEqual([
       'npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-jest prettier jest'
     ]);
-    debugger;
     expect(execSyncCalls[2][0]).toMatch(
       /^cp -R \/.*\/create-base-node-module\/files\/ \.$/
     );
