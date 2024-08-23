@@ -16,13 +16,13 @@ const devDependencies = [
   'eslint-plugin-prettier',
   'eslint-plugin-jest',
   'prettier',
-  'jest'
+  'jest',
 ];
 
 const scripts = {
   test: 'jest',
   format: 'prettier ./*.js ./**/*.js --write',
-  eslint: 'eslint .'
+  eslint: 'eslint .',
 };
 
 // Run npm init
